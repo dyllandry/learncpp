@@ -21,13 +21,16 @@ int main() {
         // If we haven't swapped this whole loop, then the array must already
         // be sorted. Break the sorting loop and continue.
         if (!hasSwapped) {
+            std::cout << "Early termination on iteration: " << i + 1 << '\n';
             break;
         }
     }
 
     // Print sorted array.
+    std::cout << "Sorted array: ";
     for (int i{0}; i < arrayLength - 1; i++) {
         std::cout << array[i] << " ";
     }
+    std::cout << '\n';
     return 0;
 }
