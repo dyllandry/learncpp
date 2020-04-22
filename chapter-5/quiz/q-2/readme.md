@@ -8,6 +8,7 @@ Note: You do not need to implement error handling for the user’s guess.
 
 Here’s what your output should look like:
 
+```
 Let's play a game.  I'm thinking of a number.  You have 7 tries to guess what it is.
 Guess #1: 64
 Your guess is too high.
@@ -38,4 +39,4 @@ Would you like to play again (y/n)? q
 Would you like to play again (y/n)? f
 Would you like to play again (y/n)? n
 Thank you for playing.
-
+```
